@@ -27,6 +27,7 @@
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
+            <scope>system</scope>
             <artifactId>javafx-controls</artifactId>
             <version>${javafx.version}</version>
             <systemPath>${javafx.systemPath}/javafx.controls.jar</systemPath>
@@ -34,6 +35,8 @@
 
         <dependency>
             <groupId>org.openjfx</groupId>
+
+            <scope>system</scope>
             <artifactId>javafx-base</artifactId>
             <version>${javafx.version}</version>
             <systemPath>${javafx.systemPath}/javafx.base.jar</systemPath>
@@ -41,6 +44,7 @@
 
         <dependency>
             <groupId>org.openjfx</groupId>
+            <scope>system</scope>
             <artifactId>javafx-graphics</artifactId>
             <version>${javafx.version}</version>
             <systemPath>${javafx.systemPath}/javafx.graphics.jar</systemPath>
